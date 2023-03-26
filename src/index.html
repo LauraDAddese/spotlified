@@ -19,6 +19,16 @@
     <script src="index.js" type="module" defer></script>
 
     <link rel="manifest" href="manifest.webmanifest" />
+
+    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+<script>
+  window.OneSignal = window.OneSignal || [];
+  OneSignal.push(function() {
+    OneSignal.init({
+      appId: "eaa62147-0003-4761-957d-8c736de2e3c5",
+    });
+  });
+</script>
   </head>
   <body>
     <header>
